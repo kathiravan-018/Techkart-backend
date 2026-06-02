@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-htb!4wg!j2ne=+06sk=(8r8$2&yr$_z12e87_c@8+9yn$f*^$d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "techkart-backend-8.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
